@@ -3,26 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin -test</title>
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Admin - Test</h1>
-    <div id="tableContainer">
-        <table id="dataTable">
-            <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>Name</th>
-                    <th>Email</th>
-                    <th>Action</th>
-                </tr>
-            </thead>
-            <tbody id="dataTableBody">
-                <!-- Table rows will be dynamically generated here -->
-            
-            </tbody>
-        </table>
-        <button id="addRowBtn">Add Row</button>
+    <div class="container">
+        <aside class="sidebar">
+            <h2>Admin Dashboard</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Users</a></li>
+                <li><a href="#">Reports</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </aside>
+        <main class="main-content">
+            <header>
+                <h1>Welcome, Admin!</h1>
+                <img src="logo.png" alt="Logo" class="logo">
+            </header>
+            <section>
+                <h2>Dashboard Overview</h2>
+                <p>This is a simple admin dashboard layout.</p>
+            </section>
+        </main>
     </div>
 </body>
 </html>
